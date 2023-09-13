@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invita il Bot Discord</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #7289da;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5a68a5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Invita il Bot Discord</h1>
+    <button onclick="inviteBot()">Invita il Bot</button>
+
+    <script>
+        function inviteBot() {
+            window.location.href = "https://discord.com/oauth2/authorize?client_id=1151530193261969418&scope=bot";
+        }
+    </script>
+</body>
+</html>
